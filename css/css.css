@@ -1,0 +1,91 @@
+﻿ 
+   *{
+      box-sizing:content-box;
+    }
+    @media(max-width:767px){
+    .w_a,
+    .w_d,
+    .w.des
+    .w_m
+    {
+    width:98%;
+    }
+    }
+    @media(min-width:768px) and (max-width:991px){
+    .w_a,
+    .w_d{
+    width:48%;
+    }
+    .w_m,
+    .w_des
+    {
+    width:97%;
+    }
+    }
+     @media(min-width:992px){
+    .w_a,
+    .w_d,
+    .w_des
+    {
+    width:32%;
+    }
+    .w_m
+    {
+    width:98%;
+    }
+    }
+        .menu_name{
+         text-align:center;
+         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+         font-size:3em;
+         color:#5d432c;
+         padding-bottom:30px;
+         padding-top:30px;
+         text-shadow:3px 3px #dcd2c9;
+        
+        }
+        
+        .name_appetizers,
+        .name_desserts,
+        .name_dinner{
+            position:relative;
+            float:right;
+            border-bottom:1px solid black;
+            border-left:1px solid #5c242a;
+            width:auto;
+            text-align:center;
+            font-size:2em;
+            color:azure;
+            padding:1% 2%;    
+        }
+        .desserts{
+          }
+        .name_desserts{
+            background:#c67335;
+            color:#f6f4ee;
+        }
+        .name_appetizers{
+            background:#ffd591;
+            color:#5d432c;
+        }
+        .name_dinner{
+            background:#cbab7f;
+            color:#5d432c;
+        }
+        .menu{
+           
+            background-color:#f6f4ee;
+            border:1px solid #5d432c;
+            color:#5d432c;
+            font-size:1.5em;
+            position:relative;
+            float:left;
+            min-height:300px;
+            margin-left:1%;
+            margin-bottom:1%;
+        }
+        .p{
+            padding:10px;
+            clear:both;
+        }
+  
